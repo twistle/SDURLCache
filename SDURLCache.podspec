@@ -8,4 +8,5 @@ Pod::Spec.new do |s|
   s.author   = { 'Olivier Poitrey' => 'rs@dailymotion.com' }
   s.source   = { :git => 'https://github.com/twistle/SDURLCache.git' }
   s.source_files = 'SDURLCache.h', 'SDURLCache.m'
+  s.requires_arc = true
 end
